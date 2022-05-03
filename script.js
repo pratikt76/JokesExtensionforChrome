@@ -18,3 +18,12 @@ button.addEventListener("click", () => {
       jokeElement.innerHTML = jokeText;
     });
 });
+
+const toggle = document.getElementById("toggle-btn");
+toggle.addEventListener("click", () => {
+  const body = document.getElementById("body");
+  body.classList.toggle("dark");
+  const dark_btn = document.getElementById("toggle");
+  dark_btn.classList.toggle("uil-sun");
+  dark_btn.classList.toggle("uil-moon");
+});
