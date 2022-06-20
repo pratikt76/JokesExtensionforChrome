@@ -1,6 +1,6 @@
 # JokesExtensionforChrome
 
-
+An amazing extension that will lighten up your day with cheerful jokes!!
 
  > Screenshots
  
